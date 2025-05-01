@@ -15,46 +15,29 @@
 
 a {
   font-weight: 500;
-<<<<<<< Updated upstream
-  color: #646cff;
+
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
-=======
- 
-  text-decoration: inherit;
-}
-
->>>>>>> Stashed changes
 
 body {
   margin: 0;
   display: flex;
-<<<<<<< Updated upstream
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-=======
 
   min-width: 320px;
   justify-content: center;
 
->>>>>>> Stashed changes
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-<<<<<<< Updated upstream
-
-=======
 p{
   font-size: 8px;
 }
->>>>>>> Stashed changes
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -73,8 +56,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-<<<<<<< Updated upstream
-=======
 li{
   list-style: none;
   display:flex;
@@ -82,22 +63,15 @@ li{
 
 }
 
->>>>>>> Stashed changes
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-<<<<<<< Updated upstream
-  a:hover {
-    color: #747bff;
-  }
-=======
   /* a:hover {
     color: #747bff;
   } */
->>>>>>> Stashed changes
   button {
     background-color: #f9f9f9;
   }
