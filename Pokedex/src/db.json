@@ -1,0 +1,5273 @@
+{
+  "users": [
+    {
+      "id": "56f7",
+      "name": "Kun",
+      "email": "krzsseczkowski.konrad92@gmail.com",
+      "password": "qazxsw21Q!",
+      "checkPassword": "qazxsw21Q!"
+    }
+  ],
+  "pokemons": [
+    {
+      "id": "ddd1",
+      "name": "bulbasaur",
+      "weight": 69,
+      "height": 7,
+      "abilities": [
+        {
+          "ability": {
+            "name": "overgrow",
+            "url": "https://pokeapi.co/api/v2/ability/65/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+          }
+        }
+      },
+      "base_experience": 64,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7505",
+      "name": "squirtle",
+      "weight": 90,
+      "height": 5,
+      "abilities": [
+        {
+          "ability": {
+            "name": "torrent",
+            "url": "https://pokeapi.co/api/v2/ability/67/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "rain-dish",
+            "url": "https://pokeapi.co/api/v2/ability/44/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg"
+          }
+        }
+      },
+      "base_experience": 63,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "2e7c",
+      "name": "wartortle",
+      "weight": 225,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "torrent",
+            "url": "https://pokeapi.co/api/v2/ability/67/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "rain-dish",
+            "url": "https://pokeapi.co/api/v2/ability/44/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg"
+          }
+        }
+      },
+      "base_experience": 142,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "db88",
+      "name": "ivysaur",
+      "weight": 130,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "overgrow",
+            "url": "https://pokeapi.co/api/v2/ability/65/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg"
+          }
+        }
+      },
+      "base_experience": 142,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "9350",
+      "name": "blastoise",
+      "weight": 855,
+      "height": 16,
+      "abilities": [
+        {
+          "ability": {
+            "name": "torrent",
+            "url": "https://pokeapi.co/api/v2/ability/67/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "rain-dish",
+            "url": "https://pokeapi.co/api/v2/ability/44/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg"
+          }
+        }
+      },
+      "base_experience": 265,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "c7cf",
+      "name": "venusaur",
+      "weight": 1000,
+      "height": 20,
+      "abilities": [
+        {
+          "ability": {
+            "name": "overgrow",
+            "url": "https://pokeapi.co/api/v2/ability/65/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg"
+          }
+        }
+      },
+      "base_experience": 263,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "adaf",
+      "name": "caterpie",
+      "weight": 29,
+      "height": 3,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shield-dust",
+            "url": "https://pokeapi.co/api/v2/ability/19/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10.svg"
+          }
+        }
+      },
+      "base_experience": 39,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "02ae",
+      "name": "charmander",
+      "weight": 85,
+      "height": 6,
+      "abilities": [
+        {
+          "ability": {
+            "name": "blaze",
+            "url": "https://pokeapi.co/api/v2/ability/66/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "solar-power",
+            "url": "https://pokeapi.co/api/v2/ability/94/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg"
+          }
+        }
+      },
+      "base_experience": 62,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "6f1d",
+      "name": "charmeleon",
+      "weight": 190,
+      "height": 11,
+      "abilities": [
+        {
+          "ability": {
+            "name": "blaze",
+            "url": "https://pokeapi.co/api/v2/ability/66/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "solar-power",
+            "url": "https://pokeapi.co/api/v2/ability/94/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg"
+          }
+        }
+      },
+      "base_experience": 142,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7440",
+      "name": "charizard",
+      "weight": 905,
+      "height": 17,
+      "abilities": [
+        {
+          "ability": {
+            "name": "blaze",
+            "url": "https://pokeapi.co/api/v2/ability/66/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "solar-power",
+            "url": "https://pokeapi.co/api/v2/ability/94/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg"
+          }
+        }
+      },
+      "base_experience": 267,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "ac4a",
+      "name": "metapod",
+      "weight": 99,
+      "height": 7,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shed-skin",
+            "url": "https://pokeapi.co/api/v2/ability/61/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/11.svg"
+          }
+        }
+      },
+      "base_experience": 72,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "8d91",
+      "name": "butterfree",
+      "weight": 320,
+      "height": 11,
+      "abilities": [
+        {
+          "ability": {
+            "name": "compound-eyes",
+            "url": "https://pokeapi.co/api/v2/ability/14/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "tinted-lens",
+            "url": "https://pokeapi.co/api/v2/ability/110/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/12.svg"
+          }
+        }
+      },
+      "base_experience": 198,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "6308",
+      "name": "weedle",
+      "weight": 32,
+      "height": 3,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shield-dust",
+            "url": "https://pokeapi.co/api/v2/ability/19/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/13.svg"
+          }
+        }
+      },
+      "base_experience": 39,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "2aec",
+      "name": "kakuna",
+      "weight": 100,
+      "height": 6,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shed-skin",
+            "url": "https://pokeapi.co/api/v2/ability/61/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/14.svg"
+          }
+        }
+      },
+      "base_experience": 72,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "55c9",
+      "name": "beedrill",
+      "weight": 295,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swarm",
+            "url": "https://pokeapi.co/api/v2/ability/68/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sniper",
+            "url": "https://pokeapi.co/api/v2/ability/97/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/15.svg"
+          }
+        }
+      },
+      "base_experience": 178,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5fa9",
+      "name": "spearow",
+      "weight": 20,
+      "height": 3,
+      "abilities": [
+        {
+          "ability": {
+            "name": "keen-eye",
+            "url": "https://pokeapi.co/api/v2/ability/51/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sniper",
+            "url": "https://pokeapi.co/api/v2/ability/97/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/21.svg"
+          }
+        }
+      },
+      "base_experience": 52,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "b6c3",
+      "name": "fearow",
+      "weight": 380,
+      "height": 12,
+      "abilities": [
+        {
+          "ability": {
+            "name": "keen-eye",
+            "url": "https://pokeapi.co/api/v2/ability/51/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sniper",
+            "url": "https://pokeapi.co/api/v2/ability/97/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/22.svg"
+          }
+        }
+      },
+      "base_experience": 155,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "ee46",
+      "name": "ekans",
+      "weight": 69,
+      "height": 20,
+      "abilities": [
+        {
+          "ability": {
+            "name": "intimidate",
+            "url": "https://pokeapi.co/api/v2/ability/22/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "shed-skin",
+            "url": "https://pokeapi.co/api/v2/ability/61/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "unnerve",
+            "url": "https://pokeapi.co/api/v2/ability/127/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/23.svg"
+          }
+        }
+      },
+      "base_experience": 58,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "66d3",
+      "name": "nidoran-f",
+      "weight": 70,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "poison-point",
+            "url": "https://pokeapi.co/api/v2/ability/38/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "rivalry",
+            "url": "https://pokeapi.co/api/v2/ability/79/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "hustle",
+            "url": "https://pokeapi.co/api/v2/ability/55/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/29.svg"
+          }
+        }
+      },
+      "base_experience": 55,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "26b9",
+      "name": "clefairy",
+      "weight": 75,
+      "height": 6,
+      "abilities": [
+        {
+          "ability": {
+            "name": "cute-charm",
+            "url": "https://pokeapi.co/api/v2/ability/56/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "magic-guard",
+            "url": "https://pokeapi.co/api/v2/ability/98/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "friend-guard",
+            "url": "https://pokeapi.co/api/v2/ability/132/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/35.svg"
+          }
+        }
+      },
+      "base_experience": 113,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "e5a6",
+      "name": "clefable",
+      "weight": 400,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "cute-charm",
+            "url": "https://pokeapi.co/api/v2/ability/56/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "magic-guard",
+            "url": "https://pokeapi.co/api/v2/ability/98/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "unaware",
+            "url": "https://pokeapi.co/api/v2/ability/109/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/36.svg"
+          }
+        }
+      },
+      "base_experience": 242,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "ae96",
+      "name": "vulpix",
+      "weight": 99,
+      "height": 6,
+      "abilities": [
+        {
+          "ability": {
+            "name": "flash-fire",
+            "url": "https://pokeapi.co/api/v2/ability/18/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "drought",
+            "url": "https://pokeapi.co/api/v2/ability/70/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/37.svg"
+          }
+        }
+      },
+      "base_experience": 60,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "aabb",
+      "name": "ninetales",
+      "weight": 199,
+      "height": 11,
+      "abilities": [
+        {
+          "ability": {
+            "name": "flash-fire",
+            "url": "https://pokeapi.co/api/v2/ability/18/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "drought",
+            "url": "https://pokeapi.co/api/v2/ability/70/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/38.svg"
+          }
+        }
+      },
+      "base_experience": 177,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "80a8",
+      "name": "jigglypuff",
+      "weight": 55,
+      "height": 5,
+      "abilities": [
+        {
+          "ability": {
+            "name": "cute-charm",
+            "url": "https://pokeapi.co/api/v2/ability/56/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "competitive",
+            "url": "https://pokeapi.co/api/v2/ability/172/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "friend-guard",
+            "url": "https://pokeapi.co/api/v2/ability/132/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg"
+          }
+        }
+      },
+      "base_experience": 95,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "b2bd",
+      "name": "wigglytuff",
+      "weight": 120,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "cute-charm",
+            "url": "https://pokeapi.co/api/v2/ability/56/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "competitive",
+            "url": "https://pokeapi.co/api/v2/ability/172/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "frisk",
+            "url": "https://pokeapi.co/api/v2/ability/119/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/40.svg"
+          }
+        }
+      },
+      "base_experience": 218,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "4c66",
+      "name": "zubat",
+      "weight": 75,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "infiltrator",
+            "url": "https://pokeapi.co/api/v2/ability/151/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg"
+          }
+        }
+      },
+      "base_experience": 49,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "54a6",
+      "name": "golbat",
+      "weight": 550,
+      "height": 16,
+      "abilities": [
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "infiltrator",
+            "url": "https://pokeapi.co/api/v2/ability/151/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/42.svg"
+          }
+        }
+      },
+      "base_experience": 159,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5328",
+      "name": "oddish",
+      "weight": 54,
+      "height": 5,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/43.svg"
+          }
+        }
+      },
+      "base_experience": 64,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "c8c7",
+      "name": "gloom",
+      "weight": 86,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "stench",
+            "url": "https://pokeapi.co/api/v2/ability/1/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg"
+          }
+        }
+      },
+      "base_experience": 138,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "2fcf",
+      "name": "vileplume",
+      "weight": 186,
+      "height": 12,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "effect-spore",
+            "url": "https://pokeapi.co/api/v2/ability/27/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg"
+          }
+        }
+      },
+      "base_experience": 245,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "1752",
+      "name": "paras",
+      "weight": 54,
+      "height": 3,
+      "abilities": [
+        {
+          "ability": {
+            "name": "effect-spore",
+            "url": "https://pokeapi.co/api/v2/ability/27/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "dry-skin",
+            "url": "https://pokeapi.co/api/v2/ability/87/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/46.svg"
+          }
+        }
+      },
+      "base_experience": 57,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "cb46",
+      "name": "parasect",
+      "weight": 295,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "effect-spore",
+            "url": "https://pokeapi.co/api/v2/ability/27/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "dry-skin",
+            "url": "https://pokeapi.co/api/v2/ability/87/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/47.svg"
+          }
+        }
+      },
+      "base_experience": 142,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "cfec",
+      "name": "venonat",
+      "weight": 300,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "compound-eyes",
+            "url": "https://pokeapi.co/api/v2/ability/14/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "tinted-lens",
+            "url": "https://pokeapi.co/api/v2/ability/110/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/48.svg"
+          }
+        }
+      },
+      "base_experience": 61,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "4466",
+      "name": "venomoth",
+      "weight": 125,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shield-dust",
+            "url": "https://pokeapi.co/api/v2/ability/19/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "tinted-lens",
+            "url": "https://pokeapi.co/api/v2/ability/110/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "wonder-skin",
+            "url": "https://pokeapi.co/api/v2/ability/147/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/49.svg"
+          }
+        }
+      },
+      "base_experience": 158,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "6723",
+      "name": "diglett",
+      "weight": 8,
+      "height": 2,
+      "abilities": [
+        {
+          "ability": {
+            "name": "sand-veil",
+            "url": "https://pokeapi.co/api/v2/ability/8/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "arena-trap",
+            "url": "https://pokeapi.co/api/v2/ability/71/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sand-force",
+            "url": "https://pokeapi.co/api/v2/ability/159/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/50.svg"
+          }
+        }
+      },
+      "base_experience": 53,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "e98c",
+      "name": "dugtrio",
+      "weight": 333,
+      "height": 7,
+      "abilities": [
+        {
+          "ability": {
+            "name": "sand-veil",
+            "url": "https://pokeapi.co/api/v2/ability/8/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "arena-trap",
+            "url": "https://pokeapi.co/api/v2/ability/71/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sand-force",
+            "url": "https://pokeapi.co/api/v2/ability/159/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/51.svg"
+          }
+        }
+      },
+      "base_experience": 149,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "1032",
+      "name": "meowth",
+      "weight": 42,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "pickup",
+            "url": "https://pokeapi.co/api/v2/ability/53/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "technician",
+            "url": "https://pokeapi.co/api/v2/ability/101/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "unnerve",
+            "url": "https://pokeapi.co/api/v2/ability/127/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/52.svg"
+          }
+        }
+      },
+      "base_experience": 58,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "3997",
+      "name": "persian",
+      "weight": 320,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "limber",
+            "url": "https://pokeapi.co/api/v2/ability/7/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "technician",
+            "url": "https://pokeapi.co/api/v2/ability/101/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "unnerve",
+            "url": "https://pokeapi.co/api/v2/ability/127/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/53.svg"
+          }
+        }
+      },
+      "base_experience": 154,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "f28e",
+      "name": "psyduck",
+      "weight": 196,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "cloud-nine",
+            "url": "https://pokeapi.co/api/v2/ability/13/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/54.svg"
+          }
+        }
+      },
+      "base_experience": 64,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5ac1",
+      "name": "golduck",
+      "weight": 766,
+      "height": 17,
+      "abilities": [
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "cloud-nine",
+            "url": "https://pokeapi.co/api/v2/ability/13/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/55.svg"
+          }
+        }
+      },
+      "base_experience": 175,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d621",
+      "name": "mankey",
+      "weight": 280,
+      "height": 5,
+      "abilities": [
+        {
+          "ability": {
+            "name": "vital-spirit",
+            "url": "https://pokeapi.co/api/v2/ability/72/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "anger-point",
+            "url": "https://pokeapi.co/api/v2/ability/83/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "defiant",
+            "url": "https://pokeapi.co/api/v2/ability/128/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/56.svg"
+          }
+        }
+      },
+      "base_experience": 61,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "f725",
+      "name": "primeape",
+      "weight": 320,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "vital-spirit",
+            "url": "https://pokeapi.co/api/v2/ability/72/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "anger-point",
+            "url": "https://pokeapi.co/api/v2/ability/83/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "defiant",
+            "url": "https://pokeapi.co/api/v2/ability/128/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg"
+          }
+        }
+      },
+      "base_experience": 159,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "07c6",
+      "name": "growlithe",
+      "weight": 190,
+      "height": 7,
+      "abilities": [
+        {
+          "ability": {
+            "name": "intimidate",
+            "url": "https://pokeapi.co/api/v2/ability/22/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "flash-fire",
+            "url": "https://pokeapi.co/api/v2/ability/18/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "justified",
+            "url": "https://pokeapi.co/api/v2/ability/154/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/58.svg"
+          }
+        }
+      },
+      "base_experience": 70,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "a9a9",
+      "name": "arcanine",
+      "weight": 1550,
+      "height": 19,
+      "abilities": [
+        {
+          "ability": {
+            "name": "intimidate",
+            "url": "https://pokeapi.co/api/v2/ability/22/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "flash-fire",
+            "url": "https://pokeapi.co/api/v2/ability/18/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "justified",
+            "url": "https://pokeapi.co/api/v2/ability/154/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/59.svg"
+          }
+        }
+      },
+      "base_experience": 194,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d0b7",
+      "name": "poliwag",
+      "weight": 124,
+      "height": 6,
+      "abilities": [
+        {
+          "ability": {
+            "name": "water-absorb",
+            "url": "https://pokeapi.co/api/v2/ability/11/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/60.svg"
+          }
+        }
+      },
+      "base_experience": 60,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "63b7",
+      "name": "poliwhirl",
+      "weight": 200,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "water-absorb",
+            "url": "https://pokeapi.co/api/v2/ability/11/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg"
+          }
+        }
+      },
+      "base_experience": 135,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5d31",
+      "name": "poliwrath",
+      "weight": 540,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "water-absorb",
+            "url": "https://pokeapi.co/api/v2/ability/11/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg"
+          }
+        }
+      },
+      "base_experience": 255,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "2552",
+      "name": "abra",
+      "weight": 195,
+      "height": 9,
+      "abilities": [
+        {
+          "ability": {
+            "name": "synchronize",
+            "url": "https://pokeapi.co/api/v2/ability/28/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "magic-guard",
+            "url": "https://pokeapi.co/api/v2/ability/98/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/63.svg"
+          }
+        }
+      },
+      "base_experience": 62,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "454b",
+      "name": "kadabra",
+      "weight": 565,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "synchronize",
+            "url": "https://pokeapi.co/api/v2/ability/28/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "magic-guard",
+            "url": "https://pokeapi.co/api/v2/ability/98/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/64.svg"
+          }
+        }
+      },
+      "base_experience": 140,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "f69e",
+      "name": "alakazam",
+      "weight": 480,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "synchronize",
+            "url": "https://pokeapi.co/api/v2/ability/28/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "magic-guard",
+            "url": "https://pokeapi.co/api/v2/ability/98/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/65.svg"
+          }
+        }
+      },
+      "base_experience": 250,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d83f",
+      "name": "machop",
+      "weight": 195,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "guts",
+            "url": "https://pokeapi.co/api/v2/ability/62/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "no-guard",
+            "url": "https://pokeapi.co/api/v2/ability/99/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "steadfast",
+            "url": "https://pokeapi.co/api/v2/ability/80/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/66.svg"
+          }
+        }
+      },
+      "base_experience": 61,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "c24c",
+      "name": "machoke",
+      "weight": 705,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "guts",
+            "url": "https://pokeapi.co/api/v2/ability/62/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "no-guard",
+            "url": "https://pokeapi.co/api/v2/ability/99/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "steadfast",
+            "url": "https://pokeapi.co/api/v2/ability/80/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/67.svg"
+          }
+        }
+      },
+      "base_experience": 142,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "f880",
+      "name": "machamp",
+      "weight": 1300,
+      "height": 16,
+      "abilities": [
+        {
+          "ability": {
+            "name": "guts",
+            "url": "https://pokeapi.co/api/v2/ability/62/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "no-guard",
+            "url": "https://pokeapi.co/api/v2/ability/99/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "steadfast",
+            "url": "https://pokeapi.co/api/v2/ability/80/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/68.svg"
+          }
+        }
+      },
+      "base_experience": 253,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "644c",
+      "name": "bellsprout",
+      "weight": 40,
+      "height": 7,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "gluttony",
+            "url": "https://pokeapi.co/api/v2/ability/82/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/69.svg"
+          }
+        }
+      },
+      "base_experience": 60,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "74ed",
+      "name": "weepinbell",
+      "weight": 64,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "gluttony",
+            "url": "https://pokeapi.co/api/v2/ability/82/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/70.svg"
+          }
+        }
+      },
+      "base_experience": 137,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "460c",
+      "name": "victreebel",
+      "weight": 155,
+      "height": 17,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "gluttony",
+            "url": "https://pokeapi.co/api/v2/ability/82/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/71.svg"
+          }
+        }
+      },
+      "base_experience": 221,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "4696",
+      "name": "tentacool",
+      "weight": 455,
+      "height": 9,
+      "abilities": [
+        {
+          "ability": {
+            "name": "clear-body",
+            "url": "https://pokeapi.co/api/v2/ability/29/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "liquid-ooze",
+            "url": "https://pokeapi.co/api/v2/ability/64/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "rain-dish",
+            "url": "https://pokeapi.co/api/v2/ability/44/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/72.svg"
+          }
+        }
+      },
+      "base_experience": 67,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "39a8",
+      "name": "tentacruel",
+      "weight": 550,
+      "height": 16,
+      "abilities": [
+        {
+          "ability": {
+            "name": "clear-body",
+            "url": "https://pokeapi.co/api/v2/ability/29/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "liquid-ooze",
+            "url": "https://pokeapi.co/api/v2/ability/64/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "rain-dish",
+            "url": "https://pokeapi.co/api/v2/ability/44/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/73.svg"
+          }
+        }
+      },
+      "base_experience": 180,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "44b4",
+      "name": "geodude",
+      "weight": 200,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sturdy",
+            "url": "https://pokeapi.co/api/v2/ability/5/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sand-veil",
+            "url": "https://pokeapi.co/api/v2/ability/8/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/74.svg"
+          }
+        }
+      },
+      "base_experience": 60,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "2a8d",
+      "name": "graveler",
+      "weight": 1050,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sturdy",
+            "url": "https://pokeapi.co/api/v2/ability/5/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sand-veil",
+            "url": "https://pokeapi.co/api/v2/ability/8/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/75.svg"
+          }
+        }
+      },
+      "base_experience": 137,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7375",
+      "name": "golem",
+      "weight": 3000,
+      "height": 14,
+      "abilities": [
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sturdy",
+            "url": "https://pokeapi.co/api/v2/ability/5/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sand-veil",
+            "url": "https://pokeapi.co/api/v2/ability/8/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/76.svg"
+          }
+        }
+      },
+      "base_experience": 223,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "0dd7",
+      "name": "magneton",
+      "weight": 600,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "magnet-pull",
+            "url": "https://pokeapi.co/api/v2/ability/42/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sturdy",
+            "url": "https://pokeapi.co/api/v2/ability/5/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "analytic",
+            "url": "https://pokeapi.co/api/v2/ability/148/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/82.svg"
+          }
+        }
+      },
+      "base_experience": 163,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "4099",
+      "name": "farfetchd",
+      "weight": 150,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "keen-eye",
+            "url": "https://pokeapi.co/api/v2/ability/51/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "defiant",
+            "url": "https://pokeapi.co/api/v2/ability/128/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/83.svg"
+          }
+        }
+      },
+      "base_experience": 132,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7630",
+      "name": "doduo",
+      "weight": 392,
+      "height": 14,
+      "abilities": [
+        {
+          "ability": {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "early-bird",
+            "url": "https://pokeapi.co/api/v2/ability/48/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "tangled-feet",
+            "url": "https://pokeapi.co/api/v2/ability/77/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/84.svg"
+          }
+        }
+      },
+      "base_experience": 62,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5517",
+      "name": "dodrio",
+      "weight": 852,
+      "height": 18,
+      "abilities": [
+        {
+          "ability": {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "early-bird",
+            "url": "https://pokeapi.co/api/v2/ability/48/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "tangled-feet",
+            "url": "https://pokeapi.co/api/v2/ability/77/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/85.svg"
+          }
+        }
+      },
+      "base_experience": 165,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "c5ce",
+      "name": "seel",
+      "weight": 900,
+      "height": 11,
+      "abilities": [
+        {
+          "ability": {
+            "name": "thick-fat",
+            "url": "https://pokeapi.co/api/v2/ability/47/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "hydration",
+            "url": "https://pokeapi.co/api/v2/ability/93/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "ice-body",
+            "url": "https://pokeapi.co/api/v2/ability/115/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/86.svg"
+          }
+        }
+      },
+      "base_experience": 65,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "4768",
+      "name": "dewgong",
+      "weight": 1200,
+      "height": 17,
+      "abilities": [
+        {
+          "ability": {
+            "name": "thick-fat",
+            "url": "https://pokeapi.co/api/v2/ability/47/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "hydration",
+            "url": "https://pokeapi.co/api/v2/ability/93/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "ice-body",
+            "url": "https://pokeapi.co/api/v2/ability/115/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/87.svg"
+          }
+        }
+      },
+      "base_experience": 166,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "eee4",
+      "name": "grimer",
+      "weight": 300,
+      "height": 9,
+      "abilities": [
+        {
+          "ability": {
+            "name": "stench",
+            "url": "https://pokeapi.co/api/v2/ability/1/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sticky-hold",
+            "url": "https://pokeapi.co/api/v2/ability/60/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "poison-touch",
+            "url": "https://pokeapi.co/api/v2/ability/143/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/88.svg"
+          }
+        }
+      },
+      "base_experience": 65,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7dbc",
+      "name": "muk",
+      "weight": 300,
+      "height": 12,
+      "abilities": [
+        {
+          "ability": {
+            "name": "stench",
+            "url": "https://pokeapi.co/api/v2/ability/1/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sticky-hold",
+            "url": "https://pokeapi.co/api/v2/ability/60/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "poison-touch",
+            "url": "https://pokeapi.co/api/v2/ability/143/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/89.svg"
+          }
+        }
+      },
+      "base_experience": 175,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "3bc7",
+      "name": "shellder",
+      "weight": 40,
+      "height": 3,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shell-armor",
+            "url": "https://pokeapi.co/api/v2/ability/75/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "skill-link",
+            "url": "https://pokeapi.co/api/v2/ability/92/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "overcoat",
+            "url": "https://pokeapi.co/api/v2/ability/142/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/90.svg"
+          }
+        }
+      },
+      "base_experience": 61,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "500d",
+      "name": "cloyster",
+      "weight": 1325,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shell-armor",
+            "url": "https://pokeapi.co/api/v2/ability/75/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "skill-link",
+            "url": "https://pokeapi.co/api/v2/ability/92/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "overcoat",
+            "url": "https://pokeapi.co/api/v2/ability/142/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/91.svg"
+          }
+        }
+      },
+      "base_experience": 184,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "9d16",
+      "name": "gastly",
+      "weight": 1,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "levitate",
+            "url": "https://pokeapi.co/api/v2/ability/26/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/92.svg"
+          }
+        }
+      },
+      "base_experience": 62,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "aa56",
+      "name": "haunter",
+      "weight": 1,
+      "height": 16,
+      "abilities": [
+        {
+          "ability": {
+            "name": "levitate",
+            "url": "https://pokeapi.co/api/v2/ability/26/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/93.svg"
+          }
+        }
+      },
+      "base_experience": 142,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "2cda",
+      "name": "gengar",
+      "weight": 405,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "cursed-body",
+            "url": "https://pokeapi.co/api/v2/ability/130/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/94.svg"
+          }
+        }
+      },
+      "base_experience": 250,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "78a5",
+      "name": "onix",
+      "weight": 2100,
+      "height": 88,
+      "abilities": [
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sturdy",
+            "url": "https://pokeapi.co/api/v2/ability/5/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "weak-armor",
+            "url": "https://pokeapi.co/api/v2/ability/133/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/95.svg"
+          }
+        }
+      },
+      "base_experience": 77,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "9676",
+      "name": "drowzee",
+      "weight": 324,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "insomnia",
+            "url": "https://pokeapi.co/api/v2/ability/15/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "forewarn",
+            "url": "https://pokeapi.co/api/v2/ability/108/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/96.svg"
+          }
+        }
+      },
+      "base_experience": 66,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "3266",
+      "name": "hypno",
+      "weight": 756,
+      "height": 16,
+      "abilities": [
+        {
+          "ability": {
+            "name": "insomnia",
+            "url": "https://pokeapi.co/api/v2/ability/15/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "forewarn",
+            "url": "https://pokeapi.co/api/v2/ability/108/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/97.svg"
+          }
+        }
+      },
+      "base_experience": 169,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "e6e5",
+      "name": "krabby",
+      "weight": 65,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "hyper-cutter",
+            "url": "https://pokeapi.co/api/v2/ability/52/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "shell-armor",
+            "url": "https://pokeapi.co/api/v2/ability/75/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sheer-force",
+            "url": "https://pokeapi.co/api/v2/ability/125/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/98.svg"
+          }
+        }
+      },
+      "base_experience": 65,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "a99a",
+      "name": "kingler",
+      "weight": 600,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "hyper-cutter",
+            "url": "https://pokeapi.co/api/v2/ability/52/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "shell-armor",
+            "url": "https://pokeapi.co/api/v2/ability/75/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sheer-force",
+            "url": "https://pokeapi.co/api/v2/ability/125/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/99.svg"
+          }
+        }
+      },
+      "base_experience": 166,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d110",
+      "name": "voltorb",
+      "weight": 104,
+      "height": 5,
+      "abilities": [
+        {
+          "ability": {
+            "name": "soundproof",
+            "url": "https://pokeapi.co/api/v2/ability/43/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "static",
+            "url": "https://pokeapi.co/api/v2/ability/9/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "aftermath",
+            "url": "https://pokeapi.co/api/v2/ability/106/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
+          }
+        }
+      },
+      "base_experience": 66,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "3b8c",
+      "name": "electrode",
+      "weight": 666,
+      "height": 12,
+      "abilities": [
+        {
+          "ability": {
+            "name": "soundproof",
+            "url": "https://pokeapi.co/api/v2/ability/43/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "static",
+            "url": "https://pokeapi.co/api/v2/ability/9/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "aftermath",
+            "url": "https://pokeapi.co/api/v2/ability/106/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/101.svg"
+          }
+        }
+      },
+      "base_experience": 172,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "01bb",
+      "name": "exeggcute",
+      "weight": 25,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "harvest",
+            "url": "https://pokeapi.co/api/v2/ability/139/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/102.svg"
+          }
+        }
+      },
+      "base_experience": 65,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "9bba",
+      "name": "exeggutor",
+      "weight": 1200,
+      "height": 20,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "harvest",
+            "url": "https://pokeapi.co/api/v2/ability/139/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/103.svg"
+          }
+        }
+      },
+      "base_experience": 186,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "4bc0",
+      "name": "cubone",
+      "weight": 65,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "lightning-rod",
+            "url": "https://pokeapi.co/api/v2/ability/31/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "battle-armor",
+            "url": "https://pokeapi.co/api/v2/ability/4/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/104.svg"
+          }
+        }
+      },
+      "base_experience": 64,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "e0a7",
+      "name": "marowak",
+      "weight": 450,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "lightning-rod",
+            "url": "https://pokeapi.co/api/v2/ability/31/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "battle-armor",
+            "url": "https://pokeapi.co/api/v2/ability/4/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/105.svg"
+          }
+        }
+      },
+      "base_experience": 149,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "cb26",
+      "name": "hitmonlee",
+      "weight": 498,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "limber",
+            "url": "https://pokeapi.co/api/v2/ability/7/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "reckless",
+            "url": "https://pokeapi.co/api/v2/ability/120/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "unburden",
+            "url": "https://pokeapi.co/api/v2/ability/84/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/106.svg"
+          }
+        }
+      },
+      "base_experience": 159,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7748",
+      "name": "hitmonchan",
+      "weight": 502,
+      "height": 14,
+      "abilities": [
+        {
+          "ability": {
+            "name": "keen-eye",
+            "url": "https://pokeapi.co/api/v2/ability/51/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "iron-fist",
+            "url": "https://pokeapi.co/api/v2/ability/89/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg"
+          }
+        }
+      },
+      "base_experience": 159,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7468",
+      "name": "lickitung",
+      "weight": 655,
+      "height": 12,
+      "abilities": [
+        {
+          "ability": {
+            "name": "own-tempo",
+            "url": "https://pokeapi.co/api/v2/ability/20/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "oblivious",
+            "url": "https://pokeapi.co/api/v2/ability/12/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "cloud-nine",
+            "url": "https://pokeapi.co/api/v2/ability/13/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/108.svg"
+          }
+        }
+      },
+      "base_experience": 77,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "b489",
+      "name": "koffing",
+      "weight": 10,
+      "height": 6,
+      "abilities": [
+        {
+          "ability": {
+            "name": "levitate",
+            "url": "https://pokeapi.co/api/v2/ability/26/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "neutralizing-gas",
+            "url": "https://pokeapi.co/api/v2/ability/256/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "stench",
+            "url": "https://pokeapi.co/api/v2/ability/1/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/109.svg"
+          }
+        }
+      },
+      "base_experience": 68,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "ffae",
+      "name": "weezing",
+      "weight": 95,
+      "height": 12,
+      "abilities": [
+        {
+          "ability": {
+            "name": "levitate",
+            "url": "https://pokeapi.co/api/v2/ability/26/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "neutralizing-gas",
+            "url": "https://pokeapi.co/api/v2/ability/256/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "stench",
+            "url": "https://pokeapi.co/api/v2/ability/1/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/110.svg"
+          }
+        }
+      },
+      "base_experience": 172,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "8a54",
+      "name": "rhyhorn",
+      "weight": 1150,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "lightning-rod",
+            "url": "https://pokeapi.co/api/v2/ability/31/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "reckless",
+            "url": "https://pokeapi.co/api/v2/ability/120/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/111.svg"
+          }
+        }
+      },
+      "base_experience": 69,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "56ad",
+      "name": "rhydon",
+      "weight": 1200,
+      "height": 19,
+      "abilities": [
+        {
+          "ability": {
+            "name": "lightning-rod",
+            "url": "https://pokeapi.co/api/v2/ability/31/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "reckless",
+            "url": "https://pokeapi.co/api/v2/ability/120/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/112.svg"
+          }
+        }
+      },
+      "base_experience": 170,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "01c2",
+      "name": "tangela",
+      "weight": 350,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "chlorophyll",
+            "url": "https://pokeapi.co/api/v2/ability/34/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "leaf-guard",
+            "url": "https://pokeapi.co/api/v2/ability/102/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "regenerator",
+            "url": "https://pokeapi.co/api/v2/ability/144/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/114.svg"
+          }
+        }
+      },
+      "base_experience": 87,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "9ee1",
+      "name": "kangaskhan",
+      "weight": 800,
+      "height": 22,
+      "abilities": [
+        {
+          "ability": {
+            "name": "early-bird",
+            "url": "https://pokeapi.co/api/v2/ability/48/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "scrappy",
+            "url": "https://pokeapi.co/api/v2/ability/113/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/115.svg"
+          }
+        }
+      },
+      "base_experience": 172,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5042",
+      "name": "horsea",
+      "weight": 80,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sniper",
+            "url": "https://pokeapi.co/api/v2/ability/97/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/116.svg"
+          }
+        }
+      },
+      "base_experience": 59,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "be23",
+      "name": "seadra",
+      "weight": 250,
+      "height": 12,
+      "abilities": [
+        {
+          "ability": {
+            "name": "poison-point",
+            "url": "https://pokeapi.co/api/v2/ability/38/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "sniper",
+            "url": "https://pokeapi.co/api/v2/ability/97/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "damp",
+            "url": "https://pokeapi.co/api/v2/ability/6/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/117.svg"
+          }
+        }
+      },
+      "base_experience": 154,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7a2e",
+      "name": "goldeen",
+      "weight": 150,
+      "height": 6,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "water-veil",
+            "url": "https://pokeapi.co/api/v2/ability/41/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "lightning-rod",
+            "url": "https://pokeapi.co/api/v2/ability/31/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/118.svg"
+          }
+        }
+      },
+      "base_experience": 64,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "bee0",
+      "name": "seaking",
+      "weight": 390,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "water-veil",
+            "url": "https://pokeapi.co/api/v2/ability/41/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "lightning-rod",
+            "url": "https://pokeapi.co/api/v2/ability/31/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/119.svg"
+          }
+        }
+      },
+      "base_experience": 158,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "01cb",
+      "name": "staryu",
+      "weight": 345,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "illuminate",
+            "url": "https://pokeapi.co/api/v2/ability/35/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "natural-cure",
+            "url": "https://pokeapi.co/api/v2/ability/30/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "analytic",
+            "url": "https://pokeapi.co/api/v2/ability/148/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/120.svg"
+          }
+        }
+      },
+      "base_experience": 68,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d538",
+      "name": "starmie",
+      "weight": 800,
+      "height": 11,
+      "abilities": [
+        {
+          "ability": {
+            "name": "illuminate",
+            "url": "https://pokeapi.co/api/v2/ability/35/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "natural-cure",
+            "url": "https://pokeapi.co/api/v2/ability/30/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "analytic",
+            "url": "https://pokeapi.co/api/v2/ability/148/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/121.svg"
+          }
+        }
+      },
+      "base_experience": 182,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "87d3",
+      "name": "mr-mime",
+      "weight": 545,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "soundproof",
+            "url": "https://pokeapi.co/api/v2/ability/43/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "filter",
+            "url": "https://pokeapi.co/api/v2/ability/111/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "technician",
+            "url": "https://pokeapi.co/api/v2/ability/101/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/122.svg"
+          }
+        }
+      },
+      "base_experience": 161,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "efdc",
+      "name": "scyther",
+      "weight": 560,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swarm",
+            "url": "https://pokeapi.co/api/v2/ability/68/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "technician",
+            "url": "https://pokeapi.co/api/v2/ability/101/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "steadfast",
+            "url": "https://pokeapi.co/api/v2/ability/80/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/123.svg"
+          }
+        }
+      },
+      "base_experience": 100,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "51ad",
+      "name": "jynx",
+      "weight": 406,
+      "height": 14,
+      "abilities": [
+        {
+          "ability": {
+            "name": "oblivious",
+            "url": "https://pokeapi.co/api/v2/ability/12/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "forewarn",
+            "url": "https://pokeapi.co/api/v2/ability/108/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "dry-skin",
+            "url": "https://pokeapi.co/api/v2/ability/87/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/124.svg"
+          }
+        }
+      },
+      "base_experience": 159,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "491a",
+      "name": "electabuzz",
+      "weight": 300,
+      "height": 11,
+      "abilities": [
+        {
+          "ability": {
+            "name": "static",
+            "url": "https://pokeapi.co/api/v2/ability/9/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "vital-spirit",
+            "url": "https://pokeapi.co/api/v2/ability/72/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/125.svg"
+          }
+        }
+      },
+      "base_experience": 172,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "b39d",
+      "name": "magmar",
+      "weight": 445,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "flame-body",
+            "url": "https://pokeapi.co/api/v2/ability/49/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "vital-spirit",
+            "url": "https://pokeapi.co/api/v2/ability/72/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/126.svg"
+          }
+        }
+      },
+      "base_experience": 173,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "418c",
+      "name": "pinsir",
+      "weight": 550,
+      "height": 15,
+      "abilities": [
+        {
+          "ability": {
+            "name": "hyper-cutter",
+            "url": "https://pokeapi.co/api/v2/ability/52/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "mold-breaker",
+            "url": "https://pokeapi.co/api/v2/ability/104/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "moxie",
+            "url": "https://pokeapi.co/api/v2/ability/153/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg"
+          }
+        }
+      },
+      "base_experience": 175,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "425d",
+      "name": "tauros",
+      "weight": 884,
+      "height": 14,
+      "abilities": [
+        {
+          "ability": {
+            "name": "intimidate",
+            "url": "https://pokeapi.co/api/v2/ability/22/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "anger-point",
+            "url": "https://pokeapi.co/api/v2/ability/83/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "sheer-force",
+            "url": "https://pokeapi.co/api/v2/ability/125/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/128.svg"
+          }
+        }
+      },
+      "base_experience": 172,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d4dd",
+      "name": "magikarp",
+      "weight": 100,
+      "height": 9,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "rattled",
+            "url": "https://pokeapi.co/api/v2/ability/155/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/129.svg"
+          }
+        }
+      },
+      "base_experience": 40,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "ba8c",
+      "name": "gyarados",
+      "weight": 2350,
+      "height": 65,
+      "abilities": [
+        {
+          "ability": {
+            "name": "intimidate",
+            "url": "https://pokeapi.co/api/v2/ability/22/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "moxie",
+            "url": "https://pokeapi.co/api/v2/ability/153/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/130.svg"
+          }
+        }
+      },
+      "base_experience": 189,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "3a3c",
+      "name": "lapras",
+      "weight": 2200,
+      "height": 25,
+      "abilities": [
+        {
+          "ability": {
+            "name": "water-absorb",
+            "url": "https://pokeapi.co/api/v2/ability/11/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "shell-armor",
+            "url": "https://pokeapi.co/api/v2/ability/75/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "hydration",
+            "url": "https://pokeapi.co/api/v2/ability/93/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/131.svg"
+          }
+        }
+      },
+      "base_experience": 187,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "f539",
+      "name": "ditto",
+      "weight": 40,
+      "height": 3,
+      "abilities": [
+        {
+          "ability": {
+            "name": "limber",
+            "url": "https://pokeapi.co/api/v2/ability/7/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "imposter",
+            "url": "https://pokeapi.co/api/v2/ability/150/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg"
+          }
+        }
+      },
+      "base_experience": 101,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5be9",
+      "name": "eevee",
+      "weight": 65,
+      "height": 3,
+      "abilities": [
+        {
+          "ability": {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "adaptability",
+            "url": "https://pokeapi.co/api/v2/ability/91/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "anticipation",
+            "url": "https://pokeapi.co/api/v2/ability/107/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg"
+          }
+        }
+      },
+      "base_experience": 65,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "dea3",
+      "name": "vaporeon",
+      "weight": 290,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "water-absorb",
+            "url": "https://pokeapi.co/api/v2/ability/11/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "hydration",
+            "url": "https://pokeapi.co/api/v2/ability/93/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/134.svg"
+          }
+        }
+      },
+      "base_experience": 184,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "f24b",
+      "name": "jolteon",
+      "weight": 245,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "volt-absorb",
+            "url": "https://pokeapi.co/api/v2/ability/10/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "quick-feet",
+            "url": "https://pokeapi.co/api/v2/ability/95/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/135.svg"
+          }
+        }
+      },
+      "base_experience": 184,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "7003",
+      "name": "flareon",
+      "weight": 250,
+      "height": 9,
+      "abilities": [
+        {
+          "ability": {
+            "name": "flash-fire",
+            "url": "https://pokeapi.co/api/v2/ability/18/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "guts",
+            "url": "https://pokeapi.co/api/v2/ability/62/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/136.svg"
+          }
+        }
+      },
+      "base_experience": 184,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "4ab7",
+      "name": "porygon",
+      "weight": 365,
+      "height": 8,
+      "abilities": [
+        {
+          "ability": {
+            "name": "trace",
+            "url": "https://pokeapi.co/api/v2/ability/36/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "download",
+            "url": "https://pokeapi.co/api/v2/ability/88/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "analytic",
+            "url": "https://pokeapi.co/api/v2/ability/148/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/137.svg"
+          }
+        }
+      },
+      "base_experience": 79,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "bd80",
+      "name": "omanyte",
+      "weight": 75,
+      "height": 4,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "shell-armor",
+            "url": "https://pokeapi.co/api/v2/ability/75/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "weak-armor",
+            "url": "https://pokeapi.co/api/v2/ability/133/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/138.svg"
+          }
+        }
+      },
+      "base_experience": 71,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "0c2c",
+      "name": "omastar",
+      "weight": 350,
+      "height": 10,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "shell-armor",
+            "url": "https://pokeapi.co/api/v2/ability/75/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "weak-armor",
+            "url": "https://pokeapi.co/api/v2/ability/133/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/139.svg"
+          }
+        }
+      },
+      "base_experience": 173,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "dc45",
+      "name": "kabuto",
+      "weight": 115,
+      "height": 5,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "battle-armor",
+            "url": "https://pokeapi.co/api/v2/ability/4/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "weak-armor",
+            "url": "https://pokeapi.co/api/v2/ability/133/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/140.svg"
+          }
+        }
+      },
+      "base_experience": 71,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "40e7",
+      "name": "kabutops",
+      "weight": 405,
+      "height": 13,
+      "abilities": [
+        {
+          "ability": {
+            "name": "swift-swim",
+            "url": "https://pokeapi.co/api/v2/ability/33/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "battle-armor",
+            "url": "https://pokeapi.co/api/v2/ability/4/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "weak-armor",
+            "url": "https://pokeapi.co/api/v2/ability/133/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/141.svg"
+          }
+        }
+      },
+      "base_experience": 173,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d415",
+      "name": "aerodactyl",
+      "weight": 590,
+      "height": 18,
+      "abilities": [
+        {
+          "ability": {
+            "name": "rock-head",
+            "url": "https://pokeapi.co/api/v2/ability/69/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "pressure",
+            "url": "https://pokeapi.co/api/v2/ability/46/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "unnerve",
+            "url": "https://pokeapi.co/api/v2/ability/127/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/142.svg"
+          }
+        }
+      },
+      "base_experience": 180,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5f7a",
+      "name": "snorlax",
+      "weight": 4600,
+      "height": 21,
+      "abilities": [
+        {
+          "ability": {
+            "name": "immunity",
+            "url": "https://pokeapi.co/api/v2/ability/17/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "thick-fat",
+            "url": "https://pokeapi.co/api/v2/ability/47/"
+          },
+          "is_hidden": false,
+          "slot": 2
+        },
+        {
+          "ability": {
+            "name": "gluttony",
+            "url": "https://pokeapi.co/api/v2/ability/82/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg"
+          }
+        }
+      },
+      "base_experience": 189,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "5d9a",
+      "name": "articuno",
+      "weight": 554,
+      "height": 17,
+      "abilities": [
+        {
+          "ability": {
+            "name": "pressure",
+            "url": "https://pokeapi.co/api/v2/ability/46/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "snow-cloak",
+            "url": "https://pokeapi.co/api/v2/ability/81/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg"
+          }
+        }
+      },
+      "base_experience": 290,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "c9a3",
+      "name": "zapdos",
+      "weight": 526,
+      "height": 16,
+      "abilities": [
+        {
+          "ability": {
+            "name": "pressure",
+            "url": "https://pokeapi.co/api/v2/ability/46/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "static",
+            "url": "https://pokeapi.co/api/v2/ability/9/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/145.svg"
+          }
+        }
+      },
+      "base_experience": 290,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "23f4",
+      "name": "moltres",
+      "weight": 600,
+      "height": 20,
+      "abilities": [
+        {
+          "ability": {
+            "name": "pressure",
+            "url": "https://pokeapi.co/api/v2/ability/46/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "flame-body",
+            "url": "https://pokeapi.co/api/v2/ability/49/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/146.svg"
+          }
+        }
+      },
+      "base_experience": 290,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "74b5",
+      "name": "dratini",
+      "weight": 33,
+      "height": 18,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shed-skin",
+            "url": "https://pokeapi.co/api/v2/ability/61/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "marvel-scale",
+            "url": "https://pokeapi.co/api/v2/ability/63/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/147.svg"
+          }
+        }
+      },
+      "base_experience": 60,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "0df8",
+      "name": "dragonair",
+      "weight": 165,
+      "height": 40,
+      "abilities": [
+        {
+          "ability": {
+            "name": "shed-skin",
+            "url": "https://pokeapi.co/api/v2/ability/61/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "marvel-scale",
+            "url": "https://pokeapi.co/api/v2/ability/63/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/148.svg"
+          }
+        }
+      },
+      "base_experience": 147,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "d3fe",
+      "name": "dragonite",
+      "weight": 2100,
+      "height": 22,
+      "abilities": [
+        {
+          "ability": {
+            "name": "inner-focus",
+            "url": "https://pokeapi.co/api/v2/ability/39/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "multiscale",
+            "url": "https://pokeapi.co/api/v2/ability/136/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/149.svg"
+          }
+        }
+      },
+      "base_experience": 300,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    },
+    {
+      "id": "e897",
+      "name": "mewtwo",
+      "weight": 1220,
+      "height": 20,
+      "abilities": [
+        {
+          "ability": {
+            "name": "pressure",
+            "url": "https://pokeapi.co/api/v2/ability/46/"
+          },
+          "is_hidden": false,
+          "slot": 1
+        },
+        {
+          "ability": {
+            "name": "unnerve",
+            "url": "https://pokeapi.co/api/v2/ability/127/"
+          },
+          "is_hidden": true,
+          "slot": 3
+        }
+      ],
+      "sprites": {
+        "other": {
+          "dream_world": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg"
+          }
+        }
+      },
+      "base_experience": 340,
+      "favorite": false,
+      "arena": false,
+      "lose": 0,
+      "win": 0
+    }
+  ]
+}
