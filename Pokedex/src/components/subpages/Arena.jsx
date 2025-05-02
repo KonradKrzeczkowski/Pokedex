@@ -20,8 +20,8 @@ const Arena = () => {
   const [pokemonLose, setPokemonLose] = useState(null);
   const [baseExpFirst, setBaseExpFirst] = useState(null);
   const [baseExpSecond, setBaseExpSecond] = useState(null);
-  const [finishBattle,setFinishBattle] =useState(false)
-  const navigate=useNavigate()
+  const [finishBattle, setFinishBattle] = useState(false);
+  const navigate = useNavigate();
   useEffect(() => {
     const filterPokemon = pokemons.filter((pokemon) => pokemon.arena);
 
@@ -49,18 +49,19 @@ const Arena = () => {
       setWinId(firstPokemon.id);
       setBaseExpFirst((prev) => prev + 10);
       setLoseId(secondPokemon.id);
-      setFinishBattle(true)
+      setFinishBattle(true);
     } else if (firstPokemonPower < secondPokemonPower) {
       setBattleWin('secondWin');
       setWinId(secondPokemon.id);
       setBaseExpSecond((prev) => prev + 10);
       setLoseId(firstPokemon.id);
-
+      setFinishBattle(true);
     } else {
       setBattleWin('draw');
+      setFinishBattle(true);
     }
   };
-console.log(battleWin)
+  console.log(battleWin);
   useEffect(() => {
     if (winId) {
       axios
@@ -78,19 +79,16 @@ console.log(battleWin)
     }
   }, [loseId]);
 
-
   useEffect(() => {
     if (pokemon && !pokemon.updated) {
- 
       const updatedBaseExperience = pokemon.base_experience + 10;
       const updateWin = pokemon.win + 1;
-
       const updatedPokemon = {
         ...pokemon,
         base_experience: updatedBaseExperience,
         win: updateWin,
         updated: true,
-      }; 
+      };
 
       axios
         .patch(`http://localhost:3000/pokemons/${winId}`, {
@@ -104,8 +102,6 @@ console.log(battleWin)
         .catch((err) => console.error('Błąd przy zapisie:', err));
     }
   }, [pokemon, winId]);
-  console.log(loseId);
-  console.log(pokemonLose);
   useEffect(() => {
     if (pokemonLose && !pokemonLose.updated) {
       const updateLose = pokemonLose.lose + 1;
@@ -129,13 +125,13 @@ console.log(battleWin)
   }, [pokemonLose, loseId]);
   function handleOutArena() {
     const updatedArena = false;
-  
+
     const updatedFirst = {
       ...firstPokemon,
       arena: updatedArena,
       updated: true,
     };
-  
+
     axios
       .patch(`http://localhost:3000/pokemons/${firstPokemon.id}`, {
         arena: updatedArena,
@@ -145,14 +141,16 @@ console.log(battleWin)
         setFirstPokemon(updatedFirst);
         navigate('/');
       })
-      .catch((err) => console.error('Błąd przy zapisie pierwszego pokemona:', err));
-  
+      .catch((err) =>
+        console.error('Błąd przy zapisie pierwszego pokemona:', err)
+      );
+
     const updatedSecond = {
       ...secondPokemon,
       arena: updatedArena,
       updated: true,
     };
-  
+
     axios
       .patch(`http://localhost:3000/pokemons/${secondPokemon.id}`, {
         arena: updatedArena,
@@ -160,87 +158,93 @@ console.log(battleWin)
       .then(() => {
         console.log('Usunięto drugiego pokemona z areny');
         setSecondPokemon(updatedSecond);
-
       })
-      .catch((err) => console.error('Błąd przy zapisie drugiego pokemona:', err));
+      .catch((err) =>
+        console.error('Błąd przy zapisie drugiego pokemona:', err)
+      );
   }
   return (
     <DivArena>
-  
-        {firstPokemon ? (
-          <PokemonCard
-            key={firstPokemon.id}
-            abilities={firstPokemon.abilities?.[0]?.ability?.name || 'Nieznane'}
-            name={firstPokemon.name}
-            height={firstPokemon.height}
-            weight={firstPokemon.weight}
-            sprites={firstPokemon.sprites}
-            base_experience={baseExpFirst}
-            id={firstPokemon.id}
-            arena={firstPokemon.arena}
-            favorite={firstPokemon.favorite}
-            win={firstPokemon.win}
-            lose={firstPokemon.lose}
-          > {battleWin ===  'firstWin' ? (
+      {firstPokemon ? (
+        <PokemonCard
+          key={firstPokemon.id}
+          abilities={firstPokemon.abilities?.[0]?.ability?.name || 'Nieznane'}
+          name={firstPokemon.name}
+          height={firstPokemon.height}
+          weight={firstPokemon.weight}
+          sprites={firstPokemon.sprites}
+          base_experience={baseExpFirst}
+          id={firstPokemon.id}
+          arena={firstPokemon.arena}
+          favorite={firstPokemon.favorite}
+          win={firstPokemon.win}
+          lose={firstPokemon.lose}
+        >
+          {' '}
+          {battleWin === 'firstWin' ? (
             <DivWin />
-          ) : battleWin ==='secondWin' ? (
+          ) : battleWin === 'secondWin' ? (
             <DivLose />
-          ) : battleWin ==='draw' ? (
+          ) : battleWin === 'draw' ? (
             <DivDraw />
-          ): null}</PokemonCard>
-        ) : (
-          <ImgCard src={card}></ImgCard>
-        )}
-      
-      {finishBattle&& <ButtonArena onClick={handleOutArena}>Leave the Arena</ButtonArena>}
-      {!finishBattle&&<ButtonArena
-        onClick={handleBattle}
-        disabled={!firstPokemon || !secondPokemon}
-      >
-        Fight
-      </ButtonArena>}
+          ) : null}
+        </PokemonCard>
+      ) : (
+        <ImgCard src={card}></ImgCard>
+      )}
 
-      
-        {secondPokemon ? (
-          <PokemonCard 
-            key={secondPokemon.id}
-            abilities={
-              secondPokemon.abilities?.[0]?.ability?.name || 'Nieznane'
-            }
-            name={secondPokemon.name}
-            height={secondPokemon.height}
-            weight={secondPokemon.weight}
-            sprites={secondPokemon.sprites}
-            base_experience={baseExpSecond}
-            id={secondPokemon.id}
-            arena={secondPokemon.arena}
-            favorite={secondPokemon.favorite}
-            win={secondPokemon.win}
-            lose={secondPokemon.lose}
-          >{battleWin ===  'secondWin' ? (
+      {finishBattle && (
+        <ButtonArena onClick={handleOutArena}>Leave the Arena</ButtonArena>
+      )}
+      {!finishBattle && (
+        <ButtonArena
+          onClick={handleBattle}
+          disabled={!firstPokemon || !secondPokemon}
+        >
+          Fight
+        </ButtonArena>
+      )}
+
+      {secondPokemon ? (
+        <PokemonCard
+          key={secondPokemon.id}
+          abilities={secondPokemon.abilities?.[0]?.ability?.name || 'Nieznane'}
+          name={secondPokemon.name}
+          height={secondPokemon.height}
+          weight={secondPokemon.weight}
+          sprites={secondPokemon.sprites}
+          base_experience={baseExpSecond}
+          id={secondPokemon.id}
+          arena={secondPokemon.arena}
+          favorite={secondPokemon.favorite}
+          win={secondPokemon.win}
+          lose={secondPokemon.lose}
+        >
+          {battleWin === 'secondWin' ? (
             <DivWin />
-          ) : battleWin ==='firstWin' ? (
+          ) : battleWin === 'firstWin' ? (
             <DivLose />
-          ) : battleWin ==='draw' ? (
+          ) : battleWin === 'draw' ? (
             <DivDraw />
-          ) : null} </PokemonCard>
-        ) : (
-          <ImgCard src={card}></ImgCard>
-        )}
-{isLoading&&<IsLoading/>}
-{isError&&<h2>Unable to retrieve data</h2>}
+          ) : null}{' '}
+        </PokemonCard>
+      ) : (
+        <ImgCard src={card}></ImgCard>
+      )}
+      {isLoading && <IsLoading />}
+      {isError && <h2>Unable to retrieve data</h2>}
     </DivArena>
   );
 };
 
 export default Arena;
 const DivArena = styled.div`
-color:black;
+  color: black;
   margin: 20px 0;
   display: flex;
   justify-content: space-around;
   max-width: 100%;
-width:100vw;
+  width: 100vw;
   @media (max-width: 721px) {
     display: flex;
     flex-direction: column;

@@ -17,7 +17,7 @@ return (
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <BoxImg sx={{ mt: 2 }}>
+          <BoxImg >
             <ImgModal
               src={selectedPokemon?.sprites?.other.dream_world.front_default}
               alt={
@@ -28,7 +28,7 @@ return (
           </BoxImg>
            <Box>
             <BoxName>
-              <TypographySpeciesCard id="modal-modal-title" variant="h6" component="h2">
+              <TypographySpeciesCard id="modal-modal-title" $variant="h6" $component="h2">
                 <h2>
                 {selectedPokemon?.name.charAt(0).toUpperCase() +
                     selectedPokemon?.name.slice(1).toLowerCase()}
@@ -69,6 +69,11 @@ const BoxDiv = styled.div`
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: space-evenly;
+
+  @media (max-width:450px) {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, auto);
+  }
 `;
 const BoxName = styled.div`
   display: flex;
@@ -77,6 +82,10 @@ const BoxName = styled.div`
 const ImgModal = styled.img`
   width: 200px;
   height: 200px;
+  @media (max-width:450px) {
+  width: 130px;
+  height: 130px;
+  }
 `;
 const BoxImg = styled.div`
   display: flex;

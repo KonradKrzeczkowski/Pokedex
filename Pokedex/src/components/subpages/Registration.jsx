@@ -72,12 +72,12 @@ const Registration = () => {
         return;
       } else setUserName(false);
       const response = await axios.post('http://localhost:3000/users', data);
-      console.log(' Dodano Użytkownika:', response.data);
+      console.log(' Add User:', response.data);
       setSubmittedData(response.data);
       navigate('/log');
       reset();
     } catch (error) {
-      console.error(' Błąd przy zapisie:', error);
+      console.error(' Error during saving":', error);
     }
   };
   console.log(submittedData);

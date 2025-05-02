@@ -1,70 +1,42 @@
-import axios from 'axios';
-const ButtonPostDbJson = (pokemons) => {
-  const fetchPokemonData = async () => {
+import React from 'react';
+
+const ButtonPostDbJson = ({ pokemonsApi }) => {
+  const handlePostPokemons = async () => {
     try {
-      const response = await axios.get(
-        `https://pokeapi.co/api/v2/pokemon?limit=150&offset=0`
-      );
-      const pokemonUrls = response.data.results;
-      const data = await Promise.all(
-        pokemonUrls.map(async (pokemon) => {
-          const pokemonResponse = await axios.get(pokemon.url);
-          const {
-            name,
-            weight,
-            height,
-            abilities,
-            sprites: {
-              other: {
-                dream_world: { front_default },
-              },
-            },
-            base_experience,
-          } = pokemonResponse.data;
-          console.log(pokemonResponse.data);
-          return {
-            name,
-            weight,
-            height,
-            abilities,
-            sprites: { other: { dream_world: { front_default } } },
-            base_experience,
+      await Promise.all(
+        pokemonsApi.map(async (element) => {
+          const enrichedPokemon = {
+            ...element,
             favorite: false,
             arena: false,
-            lose: Number(0),
-            win: Number(0),
+            lose: 0,
+            win: 0,
           };
-        })
-      );
-      await Promise.all(
-        data.map(async (element) => {
+
           const response = await fetch('http://localhost:3000/pokemons', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify(element),
+            body: JSON.stringify(enrichedPokemon),
           });
 
           if (!response.ok) {
             console.error('Error:', response.statusText);
           } else {
             console.log('Pokemon added:', await response.json());
-           
           }
         })
       );
     } catch (error) {
-      console.error('Błąd podczas pobierania danych:', error);
+      console.error('Błąd podczas zapisu Pokémonów:', error);
     }
   };
+
   return (
     <div>
-      <button
-        onClick={fetchPokemonData}
-        disabled={pokemons.pokemons.length > 1}
-      >
-      Download Pokemon data and save to server
+      <button onClick={handlePostPokemons} disabled={pokemonsApi.length === 0}>
+        Save all 150 Pokémons to server
       </button>
     </div>
   );

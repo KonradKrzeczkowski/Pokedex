@@ -3,8 +3,10 @@ import PokemonCard from '../shared/PokemonCard';
 import styled from 'styled-components';
 import pokeball from '../../icons/pokeball.png';
 import IsLoading from '../../icons/isLoading';
+import { useNavigate } from 'react-router-dom';
 const Favorites = () => {
   const { pokemons, isLoading, isError } = useFetchDbJson();
+  const navigate=useNavigate()
   return (
     <DivFavorites>
       <DivFavoritesCard>
@@ -48,7 +50,9 @@ const Favorites = () => {
         pokemons.filter((pokemon) => pokemon.favorite).length === 0 && (
           <DivAddFavorite>
             <h1>Add Pokemon to Favorite</h1>{' '}
-            <ImgPokeball src={pokeball}></ImgPokeball>
+            <ImgPokeball  onClick={() => {
+        navigate("/");
+      }} src={pokeball}></ImgPokeball>
           </DivAddFavorite>
         )}
       {isLoading && <IsLoading />}

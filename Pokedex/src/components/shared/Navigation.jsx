@@ -11,7 +11,7 @@ import LogInOutButton from './LogInOutButton';
 import NewPokemon from './NewPokemon';
 import PokemonEdit from './PokemonEdit';
 import { useContext } from 'react';
-import { ThemeContext } from '../../context/ThemeContext/ThemeContext';
+import { ThemeContext } from '../../context/ThemeContext';
 import styled from 'styled-components';
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = !!localStorage.getItem('user');

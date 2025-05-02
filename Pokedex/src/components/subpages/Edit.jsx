@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 import EditPokemon from '../shared/EditPokemon';
-import NewPokemon from '../shared/NewPokemon';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 const Edit = () => {

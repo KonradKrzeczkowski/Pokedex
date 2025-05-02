@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 const useFetchEdit = (edit) => {
   const [editPokemon, setEditPokemon] = useState([]);
@@ -7,21 +7,17 @@ const useFetchEdit = (edit) => {
 
   useEffect(() => {
     const fetchUsers = async () => {
-        setIsLoadingEditPokemon(true);
-        setIsErrorEditPokemon(false);
+      setIsLoadingEditPokemon(true);
+      setIsErrorEditPokemon(false);
       try {
-        const response = await fetch(
-          "http://localhost:3000/pokemons"
-        );
+        const response = await fetch('http://localhost:3000/pokemons');
         if (!response.ok) {
-          throw new Error("Network response was not ok");
+          throw new Error('Network response was not ok');
         }
         const data = await response.json();
-    
-    
         setEditPokemon(data);
       } catch (error) {
-        console.error("Failed to fetch pokemons", error);
+        console.error('Failed to fetch pokemons', error);
         setIsErrorEditPokemon(true);
       } finally {
         setIsLoadingEditPokemon(false);
