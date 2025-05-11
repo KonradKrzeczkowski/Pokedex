@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -7,11 +7,13 @@ import Button from '@mui/material/Button';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { ThemeContext } from '../../context/ThemeContext';
+import { ArenaFavoriteContext } from '../../context/FavArenaContext';
 
 const schema = z.object({
   name: z
     .string()
-    .min(3, { message: 'The name must be at least 3 characters long."' }),
+    .min(3, { message: 'The name must be at least 3 characters long.' }),
   image: z.string().url({ message: 'Invalid image URL' }),
   weight: z.string().min(1, { message: 'Weight must be at least 1.' }),
   height: z.string().min(1, { message: 'Height must be at least 1.' }),
@@ -21,12 +23,16 @@ const schema = z.object({
 });
 
 const NewPokemon = () => {
+  const { theme } = useContext(ThemeContext);
+  const { isDbJson } = useContext(ArenaFavoriteContext);
   const [countImg, setCountImg] = useState(151);
   const navigate = useNavigate();
   const ImageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${countImg}.svg`;
-  const usedImages = JSON.parse(localStorage.getItem('usedImages')) || [];
-  const isImageUsed = usedImages.includes(countImg);
-  console.log(isImageUsed)
+  const isImageUsed = isDbJson?.some(
+    (pokemon) =>
+      pokemon?.sprites?.other?.dream_world?.front_default === ImageUrl
+  );
+
   const {
     register,
     handleSubmit,
@@ -50,6 +56,8 @@ const NewPokemon = () => {
   const onSubmit = async (data) => {
     const newPokemon = {
       ...data,
+      win: 0,
+      lose: 0,
       sprites: {
         other: {
           dream_world: {
@@ -59,14 +67,13 @@ const NewPokemon = () => {
       },
     };
     delete newPokemon.image;
+
     try {
       const response = await axios.post(
         'http://localhost:3000/pokemons',
         newPokemon
       );
-      console.log(' Add Pokemon:', response.data);
-      const updatedUsedImages = [...usedImages, countImg];
-      localStorage.setItem('usedImages', JSON.stringify(updatedUsedImages));
+      console.log('Add Pokemon:', response.data);
       navigate('/');
     } catch (error) {
       console.error('Save error', error);
@@ -75,10 +82,14 @@ const NewPokemon = () => {
 
   return (
     <DivForm>
-      <form onSubmit={handleSubmit(onSubmit)} style={{ display: 'block' }}>
+      <Form onSubmit={handleSubmit(onSubmit)}>
         <DivPictureButton>
           <DivPicture>
-            <ImgPokemon src={ImageUrl} alt="Pokemon"   style={{ filter: isImageUsed === true ? 'grayscale(100%)' : 'none' }}d />
+            <ImgPokemon
+              src={ImageUrl}
+              alt="Pokemon"
+              style={{ filter: isImageUsed ? 'grayscale(100%)' : 'none' }}
+            />
           </DivPicture>
           <DivButton>
             <button
@@ -88,7 +99,7 @@ const NewPokemon = () => {
                 setCountImg((prev) => (prev > 1 ? prev - 1 : prev))
               }
             >
-              back
+              Back
             </button>
             <button
               type="button"
@@ -99,41 +110,84 @@ const NewPokemon = () => {
             </button>
           </DivButton>
         </DivPictureButton>
+
         <input type="hidden" {...register('image')} />
+
         <DivInput>
           <TextField
+            sx={{
+              backgroundColor: theme.background,
+              input: { color: theme.color },
+              '& label': { color: theme.color },
+              '& .MuiOutlinedInput-root fieldset': { borderColor: theme.color },
+            }}
             label="Name"
             variant="outlined"
             {...register('name')}
             placeholder="Name"
           />
           {errors.name && <p>{errors.name.message}</p>}
+
           <TextField
+            sx={{
+              backgroundColor: theme.background,
+              input: { color: theme.color },
+              '& label': { color: theme.color },
+              '& .MuiOutlinedInput-root fieldset': { borderColor: theme.color },
+            }}
             label="Weight"
             variant="outlined"
             {...register('weight')}
             placeholder="Weight"
           />
           {errors.weight && <p>{errors.weight.message}</p>}
+
           <TextField
+            sx={{
+              backgroundColor: theme.background,
+              input: { color: theme.color },
+              '& label': { color: theme.color },
+              '& .MuiOutlinedInput-root fieldset': { borderColor: theme.color },
+            }}
             label="Height"
             variant="outlined"
             {...register('height')}
             placeholder="Height"
           />
           {errors.height && <p>{errors.height.message}</p>}
+
           <TextField
+            sx={{
+              backgroundColor: theme.background,
+              input: { color: theme.color },
+              '& label': { color: theme.color },
+              '& .MuiOutlinedInput-root fieldset': { borderColor: theme.color },
+            }}
             label="Experience"
             variant="outlined"
             {...register('base_experience')}
             placeholder="Experience"
           />
           {errors.base_experience && <p>{errors.base_experience.message}</p>}
-          <Button type="submit" disabled={isImageUsed}>
+
+          <Button
+            type="submit"
+            variant="outlined"
+            disabled={isImageUsed}
+            sx={{
+              color: isImageUsed ? '#1976d2' : 'inherit',
+              borderColor: '#1976d2',
+              '&.Mui-disabled': {
+                color: '#1976d2',
+                borderColor: '#1976d2',
+                opacity: 0.5,
+              },
+            }}
+          >
             {isImageUsed ? 'Image already used' : 'Add Pokemon'}
           </Button>
         </DivInput>
-      </form>
+      </Form>
     </DivForm>
   );
 };
@@ -141,10 +195,11 @@ const NewPokemon = () => {
 export default NewPokemon;
 
 const DivForm = styled.div`
-padding-top:10px;
-width:100vw;
+  padding-top: 10px;
+  width: 100vw;
   display: flex;
   justify-content: center;
+  height: 100vh;
 `;
 
 const DivInput = styled.div`
@@ -164,7 +219,6 @@ const ImgPokemon = styled.img`
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
- 
 `;
 
 const DivPictureButton = styled.div`
@@ -179,4 +233,7 @@ const DivPicture = styled.div`
   height: 150px;
   display: flex;
   justify-content: center;
+`;
+const Form = styled.form`
+  display: block;
 `;

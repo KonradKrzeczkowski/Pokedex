@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState,useContext } from 'react';
 import useFetchEdit from '../../hooks/useFetchEdit';
 import Button from '@mui/material/Button';
 import styled from 'styled-components';
 import IsLoading from '../../icons/isLoading';
 import { useNavigate } from 'react-router-dom';
+import { ArenaFavoriteContext } from '../../context/FavArenaContext';
 const EditPokemon = () => {
   const [edit, setEdit] = useState(false);
   const navigate = useNavigate();
- const { editPokemon, isLoadingEditPokemon, isErrorEditPokemon } = useFetchEdit(edit);
+ const { isLoadingEditPokemon, isErrorEditPokemon } = useFetchEdit(edit);
+  const { isPokemonConnected} = useContext(ArenaFavoriteContext); 
    function handleEditPokemon(index, id, selectedPokemon) {
     setEdit((prev) => !prev);
    navigate("/pokemonEdit", {
@@ -17,18 +19,13 @@ const EditPokemon = () => {
       }
     });
   }
+  console.log(isPokemonConnected)
 return (
     <div>
-      {!edit && editPokemon.map(({ name, sprites, id }, index) => (
-        <ul
+     { isPokemonConnected?.map(({ name, sprites, id }, index) => (
+        <UlEdit
           key={id}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '12px',
-            padding: 0,
-            margin: '20px',
-          }}
+       
         >
           <span>{index + 1}</span>
           <li>
@@ -37,14 +34,13 @@ return (
           <li>{name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()}</li>
           <li>
             <Button
-              onClick={() => handleEditPokemon(index, id, editPokemon[index])}
+              onClick={() => handleEditPokemon(index, id, isPokemonConnected[index])}
             >
-              Edytuj
+              Edit
             </Button>
           </li>
-        </ul>
+        </UlEdit>
       ))}
-
       
       {isLoadingEditPokemon && <IsLoading />}
       {isErrorEditPokemon&&<h2>Unable to retrieve data</h2>}
@@ -58,3 +54,10 @@ const ImgEdit = styled.img`
   width: 50px;
   height: 50px;
 `;
+const UlEdit=styled.ul`
+display:flex;
+align-items:center;
+gap:12px;
+padding:0;
+margin:20px;
+`

@@ -1,6 +1,4 @@
-import React from 'react';
-import { useState, useContext } from 'react';
-import useFetchRanking from '../../hooks/useFetchRanking';
+import React, { useState, useContext } from 'react';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import Table from '@mui/material/Table';
@@ -14,14 +12,29 @@ import { ThemeContext } from '../../context/ThemeContext';
 import styled from 'styled-components';
 import useIsMobile from '../../hooks/useIsMobile';
 import IsLoading from '../../icons/isLoading';
+import useFetchPokemons from '../../hooks/useFetchPokemons';
+
 const Ranking = () => {
   const [sort, setSort] = useState('');
-  const { sortPokemon, sortIsLoading, sortIsError } = useFetchRanking(sort);
   const { theme } = useContext(ThemeContext);
   const isMobile = useIsMobile();
+  const { pokemons, isLoading, isError } = useFetchPokemons();
+  const labelMap = {
+    base_experience: 'experience',
+    weight: 'weight',
+    height: 'height',
+    win: 'battle',
+  };
+
   const handleChange = (event) => {
     setSort(event.target.value);
   };
+  const sortedPokemons = [...pokemons].sort((a, b) => {
+    if (sort === '') return 0;
+    if (a[sort] < b[sort]) return 1;
+    if (a[sort] > b[sort]) return -1;
+    return 0;
+  });
 
   return (
     <div
@@ -31,12 +44,26 @@ const Ranking = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        width: '100vw',
+        width: '100%',
       }}
     >
       <div>
-        <DivSelect>
+        <DivSelect style={theme}>
           <Select
+            sx={{
+              backgroundColor: theme.background,
+              color: theme.color,
+              '.MuiSvgIcon-root': { color: theme.color },
+              '.MuiOutlinedInput-notchedOutline': {
+                borderColor: theme.color,
+              },
+              '&:hover .MuiOutlinedInput-notchedOutline': {
+                borderColor: theme.color,
+              },
+              '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                borderColor: theme.color,
+              },
+            }}
             labelId="demo-simple-select-standard-label"
             id="demo-simple-select-standard"
             value={sort}
@@ -46,7 +73,7 @@ const Ranking = () => {
               if (selected === '') {
                 return <em>Sort</em>;
               }
-              return selected;
+              return labelMap[selected] || selected;
             }}
           >
             <MenuItem value="">
@@ -58,43 +85,155 @@ const Ranking = () => {
             <MenuItem value={'win'}>battle</MenuItem>
           </Select>
         </DivSelect>
+
+        {isLoading && <IsLoading />}
+        {isError && <h2>Unable to retrieve data</h2>}
+
         {!isMobile && (
-          <TableContainer component={Paper} style={theme}>
+          <TableContainer
+            component={Paper}
+            sx={{
+              backgroundColor: theme.background,
+              color: theme.color,
+            }}
+          >
             <Table
-              sx={{ minWidth: 650 }}
+              sx={{
+                minWidth: 650,
+                backgroundColor: theme.background,
+                color: theme.color,
+              }}
               size="small"
               aria-label="a dense table"
             >
-              <TableHead>
+              <TableHead
+                sx={{
+                  backgroundColor: theme.background,
+                  color: theme.color,
+                }}
+              >
                 <TableRow>
                   <TableCell></TableCell>
                   <TableCell></TableCell>
-                  <TableCell align="right">Name</TableCell>
-                  <TableCell align="right">Weight</TableCell>
-                  <TableCell align="right">Height</TableCell>
-                  <TableCell align="right">Experience</TableCell>
-                  <TableCell align="right">Win</TableCell>
+                  <TableCell
+                    sx={{
+                      backgroundColor: theme.background,
+                      color: theme.color,
+                    }}
+                    align="right"
+                  >
+                    Name
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      backgroundColor: theme.background,
+                      color: theme.color,
+                    }}
+                    align="right"
+                  >
+                    Weight
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      backgroundColor: theme.background,
+                      color: theme.color,
+                    }}
+                    align="right"
+                  >
+                    Height
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      backgroundColor: theme.background,
+                      color: theme.color,
+                    }}
+                    align="right"
+                  >
+                    Experience
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      backgroundColor: theme.background,
+                      color: theme.color,
+                    }}
+                    align="right"
+                  >
+                    Win
+                  </TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
-                {sortPokemon.map(
+                {sortedPokemons.map(
                   (
                     { name, id, weight, height, sprites, base_experience, win },
                     index
                   ) => (
-                    <TableRow key={id}>
-                      <TableCell>{index + 1}</TableCell>
+                    <TableRow
+                      sx={{
+                        backgroundColor: theme.background,
+                        color: theme.color,
+                      }}
+                      key={id}
+                    >
+                      <TableCell
+                        sx={{
+                          backgroundColor: theme.background,
+                          color: theme.color,
+                        }}
+                      >
+                        {index + 1}
+                      </TableCell>
                       <TableCell component="th" scope="sortPokemon">
                         <ImgPokemon
                           style={{ width: '30px' }}
                           src={sprites?.other.dream_world.front_default}
-                        ></ImgPokemon>
+                        />
                       </TableCell>
-                      <TableCell align="right">{name}</TableCell>
-                      <TableCell align="right">{weight}</TableCell>
-                      <TableCell align="right">{height}</TableCell>
-                      <TableCell align="right">{base_experience}</TableCell>
-                      <TableCell align="right">{win}</TableCell>
+                      <TableCell
+                        sx={{
+                          backgroundColor: theme.background,
+                          color: theme.color,
+                        }}
+                        align="right"
+                      >
+                        {name}
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          backgroundColor: theme.background,
+                          color: theme.color,
+                        }}
+                        align="right"
+                      >
+                        {weight}
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          backgroundColor: theme.background,
+                          color: theme.color,
+                        }}
+                        align="right"
+                      >
+                        {height}
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          backgroundColor: theme.background,
+                          color: theme.color,
+                        }}
+                        align="right"
+                      >
+                        {base_experience}
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          backgroundColor: theme.background,
+                          color: theme.color,
+                        }}
+                        align="right"
+                      >
+                        {win}
+                      </TableCell>
                     </TableRow>
                   )
                 )}
@@ -102,22 +241,19 @@ const Ranking = () => {
             </Table>
           </TableContainer>
         )}
+
         {isMobile &&
-          sortPokemon.map(
+          sortedPokemons.map(
             (
               { name, id, weight, height, sprites, base_experience, win },
               index
             ) => (
-              <div style={{ display: 'flex', gap: '10px' }} key={id + name}>
+              <DivList  key={id + name}>
                 <p>{index + 1}</p>
                 <ImgPokemon
-                  style={{
-                    maxWidth: '50px',
-                    maxHeight: '50px',
-                    objectFit: 'contain',
-                  }}
+               
                   src={sprites?.other.dream_world.front_default}
-                ></ImgPokemon>
+                />
                 <p>
                   {name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()}
                 </p>
@@ -125,23 +261,27 @@ const Ranking = () => {
                 <p>{height}</p>
                 <p>{base_experience}</p>
                 <p>{win}</p>
-              </div>
+              </DivList>
             )
           )}
       </div>
-      {sortIsLoading && <IsLoading />}
-      {sortIsError && <h2>Unable to retrieve data</h2>}
     </div>
   );
 };
 
 export default Ranking;
+
 const ImgPokemon = styled.img`
   width: 30px;
   height: 30px;
 `;
+
 const DivSelect = styled.div`
   display: flex;
   justify-content: center;
   margin: 8px;
 `;
+const DivList=styled.div`
+display:flex;
+gap:10px;
+`

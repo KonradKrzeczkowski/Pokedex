@@ -4,11 +4,11 @@ export const ThemeContext = createContext(null);
 
 export const ThemeProvider = ({ children }) => {
   const dark = {
-    background: "#182222",
+    background: "black",
     color: "#FFFAF0",
   };
   const light = {
-    background: "#FFFAF0",
+    background: "white",
     color: "#182222",
   };
 

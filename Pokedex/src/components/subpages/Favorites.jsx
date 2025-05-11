@@ -6,7 +6,8 @@ import IsLoading from '../../icons/isLoading';
 import { useNavigate } from 'react-router-dom';
 const Favorites = () => {
   const { pokemons, isLoading, isError } = useFetchDbJson();
-  const navigate=useNavigate()
+  const navigate = useNavigate();
+  console.log(pokemons);
   return (
     <DivFavorites>
       <DivFavoritesCard>
@@ -50,9 +51,12 @@ const Favorites = () => {
         pokemons.filter((pokemon) => pokemon.favorite).length === 0 && (
           <DivAddFavorite>
             <h1>Add Pokemon to Favorite</h1>{' '}
-            <ImgPokeball  onClick={() => {
-        navigate("/");
-      }} src={pokeball}></ImgPokeball>
+            <ImgPokeball
+              onClick={() => {
+                navigate('/');
+              }}
+              src={pokeball}
+            ></ImgPokeball>
           </DivAddFavorite>
         )}
       {isLoading && <IsLoading />}
@@ -63,8 +67,8 @@ const Favorites = () => {
 
 export default Favorites;
 const DivFavorites = styled.div`
-  width: 100vw;
-  height: 100vw;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

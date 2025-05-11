@@ -11,8 +11,9 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { useSnackbar } from 'notistack';
 import { LoginContext } from '../../context/LoginContext';
-
+import { ThemeContext } from '../../context/ThemeContext';
 const Log = () => {
+  const { theme } = useContext(ThemeContext);
   const { setIsLoggedIn } = useContext(LoginContext);
   const { register, handleSubmit, reset } = useForm();
   const { enqueueSnackbar } = useSnackbar();
@@ -53,16 +54,28 @@ const Log = () => {
     event.preventDefault();
   };
 
-  const handleMouseUpPassword = (event) => {
-    event.preventDefault();
-  };
+
 
   return (
     <DivForm>
       <div>
-        <h1>Zaloguj się</h1>
+        <HStyle>Login</HStyle>
         <Form onSubmit={handleSubmit(onSubmit, console.log('hello'))}>
           <TextField
+            sx={{
+              backgroundColor: theme.background,
+              input: {
+                color: theme.color,
+              },
+              '& label': {
+                color: theme.color,
+              },
+              '& .MuiOutlinedInput-root': {
+                '& fieldset': {
+                  borderColor: theme.color,
+                },
+              },
+            }}
             id="outlined-basic"
             label="Name"
             variant="outlined"
@@ -71,6 +84,20 @@ const Log = () => {
             {...register('name')}
           />
           <TextField
+            sx={{
+              backgroundColor: theme.background,
+              input: {
+                color: theme.color,
+              },
+              '& label': {
+                color: theme.color,
+              },
+              '& .MuiOutlinedInput-root': {
+                '& fieldset': {
+                  borderColor: theme.color,
+                },
+              },
+            }}
             id="outlined-password"
             label="Password"
             type={showPassword ? 'text' : 'password'}
@@ -79,31 +106,42 @@ const Log = () => {
             fullWidth
             placeholder="Password"
             {...register('password')}
-            slotProps={{
-              input: {
-                endAdornment: (
-                  <InputAdornment position="end">
-                    <IconButton
-                      aria-label={
-                        showPassword ? 'hide password' : 'show password'
-                      }
-                      onClick={handleClickShowPassword}
-                      onMouseDown={handleMouseDownPassword}
-                      onMouseUp={handleMouseUpPassword}
-                      edge="end"
-                    >
-                      {showPassword ? <VisibilityOff /> : <Visibility />}
-                    </IconButton>
-                  </InputAdornment>
-                ),
-              },
+            InputProps={{
+              endAdornment: (
+                <InputAdornment position="end">
+                  <IconButton
+                    aria-label={
+                      showPassword ? 'hide password' : 'show password'
+                    }
+                    onClick={handleClickShowPassword}
+                    onMouseDown={handleMouseDownPassword}
+                    edge="end"
+                  >
+                    {showPassword ? (
+                      <VisibilityOff sx={{ color: '#1976d2' }} />
+                    ) : (
+                      <Visibility sx={{ color: '#1976d2' }} />
+                    )}
+                  </IconButton>
+                </InputAdornment>
+              ),
             }}
           />
-          <Button type="submit">Zaloguj</Button>
+          <Button
+            type="submit"
+            variant="outlined"
+            sx={{
+              color: '#1976d2',
+              borderColor: '#1976d2',
+              '&:hover': {
+                borderColor: '#115293',
+                color: '#115293',
+              },
+            }}
+          >
+            Login
+          </Button>
         </Form>
-        <LinkRegistration onClick={() => navigate('registration')}>
-          Don't have an account? Register here
-        </LinkRegistration>
       </div>
     </DivForm>
   );
@@ -122,9 +160,13 @@ const DivForm = styled.div`
   justify-content: center;
   flex-direction: row;
   gap: 20px;
-  width:100vw;
-  height:100vh;
+  width: 98vw;
+  height: 100vh;
 `;
 const LinkRegistration = styled.a`
   color: red;
+`;
+const HStyle = styled.h1`
+  display: flex;
+  justify-content: center;
 `;

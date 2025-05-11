@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useEffect, useContext } from 'react';
 import TextField from '@mui/material/TextField';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import Button from '@mui/material/Button';
-import { useEffect } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
-import { useNavigate } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-
+import { useNavigate, useLocation } from 'react-router-dom';
+import { ArenaFavoriteContext } from '../../context/FavArenaContext';
+import { ThemeContext } from '../../context/ThemeContext';
 const schema = z.object({
   weight: z.string().min(1, { message: 'Waga musi mieć przynajmniej 1 znak' }),
   height: z
@@ -24,23 +23,23 @@ const PokemonEdit = () => {
   const navigate = useNavigate();
   const { state } = useLocation();
   const { pokemons, id } = state || {};
-  console.log(pokemons);
+  const { theme } = useContext(ThemeContext);
+  const { isDbJson, setIsDbJson } = useContext(ArenaFavoriteContext);
+
   const {
     register,
     handleSubmit,
-formState: { errors },
+    formState: { errors },
     setValue,
-  } = useForm(
-    { resolver: zodResolver(schema) },
-    {
-      defaultValues: {
-        weight: '',
-        height: '',
-        base_experience: '',
-      },
-    }
-  );
-  console.log(id);
+  } = useForm({
+    resolver: zodResolver(schema),
+    defaultValues: {
+      weight: '',
+      height: '',
+      base_experience: '',
+    },
+  });
+
   useEffect(() => {
     if (pokemons) {
       setValue('weight', pokemons.weight);
@@ -48,27 +47,44 @@ formState: { errors },
       setValue('base_experience', pokemons.base_experience);
     }
   }, [pokemons, setValue]);
-  const onSubmit = (data) => {
-    console.log('Formularz wysłany:', data);
-    const updatedBaseExperience = data.base_experience;
-    const upatedHeight = data.height;
-    const updatedWeight = data.weight;
+
+  const onSubmit = async (data) => {
     const updatedPokemon = {
       ...pokemons,
-      base_experience: updatedBaseExperience,
-      weight: updatedWeight,
-      height: upatedHeight,
+      base_experience: Number(data.base_experience),
+      weight: Number(data.weight),
+      height: Number(data.height),
       updated: true,
     };
+    const existsInDb = isDbJson?.some((p) => p.id.toString() === id.toString());
+    try {
+      if (existsInDb) {
+        await axios.patch(
+          `http://localhost:3000/pokemons/${id}`,
+          updatedPokemon
+        );
+        setIsDbJson((prev) =>
+          prev.map((p) =>
+            p.id.toString() === id.toString() ? updatedPokemon : p
+          )
+        );
+        alert(`Zaktualizowano atrybuty ${pokemons?.name}`);
+      } else {
+        await axios.post(`http://localhost:3000/pokemons`, {
+          ...updatedPokemon,
+          id: id.toString(),
+        });
+        setIsDbJson((prev) => [
+          ...prev,
+          { ...updatedPokemon, id: id.toString() },
+        ]);
+        alert(`Dodano ${pokemons?.name} do db.json`);
+      }
 
-    axios.patch(`http://localhost:3000/pokemons/${id}`, updatedPokemon)
-      .then(() => {
-       alert(`zmieniono atrybuty ${pokemons?.name} `);
-        navigate('/');
-      })
-      .catch((err) => console.error('Błąd przy zapisie:', err));
-
-    console.log('Błędy:', errors);
+      navigate('/');
+    } catch (error) {
+      console.error('Błąd przy zapisie:', error);
+    }
   };
 
   return (
@@ -76,42 +92,86 @@ formState: { errors },
       <h2>{pokemons?.name}</h2>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <TextField
-          id="outlined-basic"
+          sx={{
+            backgroundColor: theme.background,
+            input: {
+              color: theme.color,
+            },
+            '& label': {
+              color: theme.color,
+            },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: theme.color,
+              },
+            },
+          }}
           label="height"
           variant="outlined"
-          name="height"
-          focused
           {...register('height')}
+          error={!!errors.height}
+          helperText={errors.height?.message}
         />
         <TextField
-          id="outlined-basic"
+          sx={{
+            backgroundColor: theme.background,
+            input: {
+              color: theme.color,
+            },
+            '& label': {
+              color: theme.color,
+            },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: theme.color,
+              },
+            },
+          }}
           label="weight"
           variant="outlined"
-          name="weight"
-          focused
           {...register('weight')}
+          error={!!errors.weight}
+          helperText={errors.weight?.message}
         />
         <TextField
-          id="outlined-basic"
+          sx={{
+            backgroundColor: theme.background,
+            input: {
+              color: theme.color,
+            },
+            '& label': {
+              color: theme.color,
+            },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: theme.color,
+              },
+            },
+          }}
           label="experience"
           variant="outlined"
-          name="base_experience"
-          focused
           {...register('base_experience')}
+          error={!!errors.base_experience}
+          helperText={errors.base_experience?.message}
         />
-        <Button type="submit">Zmieniono atrybuty {pokemons?.name} </Button>
+        <Button type="submit" variant="contained">
+          Zapisz zmiany {pokemons?.name}
+        </Button>
       </Form>
     </DivForm>
   );
 };
+
 export default PokemonEdit;
+
 const DivForm = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:100vw;
-  height:100vh;
+  width: 100vw;
+  height: 100vh;
 `;
+
 const Form = styled.form`
   display: flex;
   flex-direction: column;

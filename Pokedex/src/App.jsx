@@ -6,7 +6,7 @@ import { Switch } from '@mui/material';
 import { ThemeContext } from './context/ThemeContext';
 import { useContext } from 'react';
 import pokemon from './icons/pokemonLogo.png';
-
+import { ArenaFavoriteProvider } from './context/FavArenaContext';
 import { useNavigate } from 'react-router-dom';
 function App() {
   const { theme, changeTheme, setChangeTheme } = useContext(ThemeContext);
@@ -21,14 +21,15 @@ function App() {
   return (
     <>
       <LoginProvider>
+        <ArenaFavoriteProvider>
         <SnackbarProvider maxSnack={3} autoHideDuration={3000}>
           <DivNav style={theme}>
             <ImgPokemon
               onClick={() => navigate('/')}
               src={pokemon}
             ></ImgPokemon>
-            <DivSwitchName>
-              {' '}
+            <DivSwitchName style={{maxWidth:"100vw"}}>
+            
               {userName && (
                 <PName>
                   {userName.name.charAt(0).toUpperCase() +
@@ -46,6 +47,7 @@ function App() {
           </DivNav>
           <Navigation />
         </SnackbarProvider>
+        </ArenaFavoriteProvider>
       </LoginProvider>
     </>
   );

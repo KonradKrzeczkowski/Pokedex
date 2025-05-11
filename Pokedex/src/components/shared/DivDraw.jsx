@@ -3,8 +3,8 @@ import styled from 'styled-components'
 const DivDraw = () => {
   return (
     <DrawDiv>
-      Remis
-    </DrawDiv>
+   Draw
+   </DrawDiv>
   )
 }
 

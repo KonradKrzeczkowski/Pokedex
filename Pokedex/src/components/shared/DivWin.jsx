@@ -3,7 +3,9 @@ import styled from 'styled-components'
 const DivWin = () => {
   return (
     <WinDiv>
-     Winner
+      <h1>Winner</h1>
+  <h3>Experience +10</h3>
+  <h3>Win +1</h3>
     </WinDiv>
   )
 }
@@ -13,7 +15,9 @@ const WinDiv=styled.div`
 position: absolute;
 border-radius:8px;
 color:white;
-  box-shadow: 12px 12px 11px 12px rgb(17, 139, 23);
+  display:flex;
+flex-direction: column;
+box-shadow: 12px 12px 11px 12px rgb(17, 139, 23);
   top: 0;
   left: 0;
   width: 100%;
@@ -24,5 +28,4 @@ color:white;
   justify-content: center;
   align-items: center;
 
-  font-size: 36px;
   font-weight: bold;`
