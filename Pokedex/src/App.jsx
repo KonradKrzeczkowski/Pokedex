@@ -12,10 +12,8 @@ function App() {
   const { theme, changeTheme, setChangeTheme } = useContext(ThemeContext);
   const navigate = useNavigate();
   const handleCheckboxChange = () => {
-    console.log('Przed:', changeTheme);
-    setChangeTheme((prev) => !prev);
-    console.log('Po:', changeTheme);
-  };
+ setChangeTheme((prev) => !prev);
+   };
   const userName = JSON.parse(localStorage.getItem('user'));
 
   return (
