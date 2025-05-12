@@ -19,7 +19,6 @@ const EditPokemon = () => {
       }
     });
   }
-  console.log(isPokemonConnected)
 return (
     <div>
      { isPokemonConnected?.map(({ name, sprites, id }, index) => (

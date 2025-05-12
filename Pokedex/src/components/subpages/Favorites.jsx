@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 const Favorites = () => {
   const { pokemons, isLoading, isError } = useFetchDbJson();
   const navigate = useNavigate();
-  console.log(pokemons);
   return (
     <DivFavorites>
       <DivFavoritesCard>
@@ -44,13 +43,13 @@ const Favorites = () => {
               )
           )
         ) : (
-          <p>Ładowanie danych lub brak pokemonów...</p>
+          <p></p>
         )}
       </DivFavoritesCard>
       {Array.isArray(pokemons) &&
         pokemons.filter((pokemon) => pokemon.favorite).length === 0 && (
           <DivAddFavorite>
-            <h1>Add Pokemon to Favorite</h1>{' '}
+            <h1>Add Pokemon to Favorite</h1>
             <ImgPokeball
               onClick={() => {
                 navigate('/');
